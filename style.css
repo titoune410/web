@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333333;
+    color: white; 
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+section {
+    margin: 10px;
+}
+
+article {
+    margin: 10px;
+    padding: 10px;
+    border: 2px dotted gray;
+}
+
+p {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+h2 {
+    margin: 10px;
+    background-color: red;
+    border-left: 50px solid black;
+    text-transform: capitalize;
+}
+
+#info {
+    width: 600px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin: 10px;
+    padding: auto;
+}
+
+.documentation {
+    background-color: green;
+    color: white;
+    margin: 10px;
+    line-height: 2em;
+}
+
+.documentation a {
+    display: inline-block;
+    line-height: normal;
+    text-decoration: none;
+    background-color: darkgreen;
+    color: greenyellow;
+    padding: 5px;
+}
+
+.documentation a:hover {
+    background-color: lightgreen;
+    color:  darkgreen;
+}
+
+.code {
+    font-family: courier;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+
+pre {
+    margin: 10px;
+    padding: 10px;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+}
+
+tr {
+  line-height: 2em;
+}
+
+th {
+  background-color: darkblue;
+  color: white;
+  height: 3em;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+tr:last-child {
+  color: blue;
+}
